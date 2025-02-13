@@ -1,6 +1,5 @@
 #pragma once
-#include <juce_core/juce_core.h>
-#include <juce_gui_basics/juce_gui_basics.h>
+#include <juce_gui_extra/juce_gui_extra.h>
 
 class MainComponent : public juce::Component
 {
@@ -8,12 +7,13 @@ public:
     MainComponent();
     ~MainComponent() override;
 
-    void paint(juce::Graphics& g) override;
-    void resized() override;
+    void resized() override
+    {
+        webBrowser.setBounds(getLocalBounds());
+    }
 
 private:
-    juce::Label message;
-    juce::TextButton testButton;
+    juce::WebBrowserComponent webBrowser;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR(MainComponent)
 };

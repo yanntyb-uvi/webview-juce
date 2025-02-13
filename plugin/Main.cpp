@@ -39,6 +39,7 @@ public:
             setBroughtToFrontOnMouseClick(true);
 
             setVisible(true);
+            setSize(400, 500);
         }
 
         void closeButtonPressed() override

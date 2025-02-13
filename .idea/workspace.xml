@@ -9,6 +9,7 @@
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="RiderCppLiveTemplatesSettings" type="string" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="7" type="long" />
   </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
@@ -30,17 +31,52 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="588b2788-9721-47ee-8de6-cc672e313d60" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bun.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/Main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/MainComponent.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/MainComponent.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/build-on-save.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/build.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/juce" beforeDir="false" />
+    <list default="true" id="588b2788-9721-47ee-8de6-cc672e313d60" name="Changes" comment=":init:">
+      <change afterPath="$PROJECT_DIR$/build.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.prettierrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/bun.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/eslint.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/TheWelcome.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/WelcomeItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/icons/IconCommunity.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/icons/IconDocumentation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/icons/IconEcosystem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/icons/IconSupport.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/icons/IconTooling.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-c75e280f7b78d3b4df83.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-5c76f384f68754607e51.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2025-02-13T00-34-40-0684.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-SimpleApp-Debug-0785479bc4b64082f99e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/JUCE/tools/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/JUCE/tools/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/JUCE/tools/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/JUCE/tools/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/SimpleApp_artefacts/JuceLibraryCode/Info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/SimpleApp_artefacts/JuceLibraryCode/Info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/Main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/MainComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/MainComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/MainComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/MainComponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build-on-save.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +95,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="1242b8a3-9224-4ec7-8601-a1fdee799a0d" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
@@ -107,6 +155,7 @@
     "CMake Debug.JuceWebViewPlugin.executor": "Debug",
     "CMake Debug.SimpleApp.executor": "Debug",
     "Makefile Target.default_target.executor": "Run",
+    "Node.js.build-on-save.ts.executor": "Run",
     "Node.js.build.ts.executor": "Run",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -126,6 +175,7 @@
     "code.cleanup.on.save": "true",
     "git-widget-placeholder": "main",
     "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "/Users/yann/Desktop/Perso/Dev/2025/juce-webview/plugin",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.standard": "",
@@ -135,12 +185,16 @@
     "onboarding.tips.debug.path": "/Users/yann/Desktop/Perso/Dev/2025/juce-webview/main.cpp",
     "rearrange.code.on.save": "true",
     "settings.editor.selected.configurable": "settings.nodejs",
-    "ts.external.directory.path": "/Users/yann/Applications/CLion.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "ts.external.directory.path": "/Users/yann/Desktop/Perso/Dev/2025/juce-webview/front/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/plugin" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/front" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/scripts" />
       <recent name="$PROJECT_DIR$/plugin" />
@@ -152,11 +206,9 @@
       <command value="build.sh" />
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.build-on-save.ts">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Node.js.build.ts">
+    <configuration name="SimpleApp" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
+      <method v="2" />
     </configuration>
     <configuration name="default_target" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/build/Makefile" target="default_target" workingDirectory="" arguments="">
@@ -164,7 +216,10 @@
       </makefile>
       <method v="2" />
     </configuration>
-    <configuration name="build-on-save.ts" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/scripts/build-on-save.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$">
+    <configuration name="build-on-save.ts" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/build-on-save.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="build.ts" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/build.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$/">
       <method v="2" />
     </configuration>
     <configuration name="build.sh" type="ShConfigurationType" temporary="true">
@@ -183,14 +238,18 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="CMake Debug.SimpleApp" />
       <item itemvalue="Makefile Target.default_target" />
+      <item itemvalue="Node.js.build.ts" />
       <item itemvalue="Node.js.build-on-save.ts" />
       <item itemvalue="Shell Script.build.sh" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.build.ts" />
         <item itemvalue="Node.js.build-on-save.ts" />
         <item itemvalue="Shell Script.build.sh" />
+        <item itemvalue="CMake Debug.SimpleApp" />
         <item itemvalue="Makefile Target.default_target" />
       </list>
     </recent_temporary>
@@ -206,8 +265,28 @@
       <workItem from="1709117569394" duration="980000" />
       <workItem from="1724232398592" duration="1892000" />
       <workItem from="1739395490448" duration="2830000" />
-      <workItem from="1739398345797" duration="8501000" />
+      <workItem from="1739398345797" duration="8956000" />
+      <workItem from="1739436014941" duration="1157000" />
+      <workItem from="1739441618400" duration="77000" />
+      <workItem from="1739448634856" duration="3373000" />
     </task>
+    <task id="LOCAL-00001" summary=":init:">
+      <option name="closed" value="true" />
+      <created>1739406991036</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739406991036</updated>
+    </task>
+    <task id="LOCAL-00002" summary=":init:">
+      <option name="closed" value="true" />
+      <created>1739407053346</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739407053346</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +296,10 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=":init:" />
+    <option name="LAST_COMMIT_MESSAGE" value=":init:" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
