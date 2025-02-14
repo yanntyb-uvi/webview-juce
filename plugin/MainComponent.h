@@ -12,8 +12,8 @@ public:
         webBrowser.setBounds(getLocalBounds());
     }
 
+
 private:
     juce::WebBrowserComponent webBrowser;
-
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR(MainComponent)
 };

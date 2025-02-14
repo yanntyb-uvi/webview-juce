@@ -7,6 +7,10 @@ MainComponent::MainComponent()
     // webBrowser.goToURL("file://" + file.getFullPathName());
     webBrowser.goToURL("http://localhost:5173/");
     webBrowser.setAlwaysOnTop(true);
+    webBrowser.setSize(400, 500);
+
 }
+
+MainComponent::
 
 MainComponent::~MainComponent() {}
