@@ -2,15 +2,13 @@
 
 MainComponent::MainComponent()
 {
-    addAndMakeVisible(webBrowser);
+    addAndMakeVisible(browser);
     // const juce::File file = juce::File::getCurrentWorkingDirectory().getChildFile("front/index.html");
-    // webBrowser.goToURL("file://" + file.getFullPathName());
-    webBrowser.goToURL("http://localhost:5173/");
-    webBrowser.setAlwaysOnTop(true);
-    webBrowser.setSize(400, 500);
+    // browser.goToURL("file://" + file.getFullPathName());
+    browser.goToURL("http://localhost:5173/");
+    browser.setAlwaysOnTop(true);
+    browser.setSize(400, 500);
 
 }
-
-MainComponent::
 
 MainComponent::~MainComponent() {}
